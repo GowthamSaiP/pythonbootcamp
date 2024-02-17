@@ -1,0 +1,19 @@
+Python - Python is a high level, interpreted and dynamically typed programming language.
+
+High level programming language - Programming languages that can be easily understood by coders because of usage of language in building logics.
+
+Interpreted - In interpreted programming languages, the code is translated into machine language and executed line by line at its runtime.
+
+Dynamically typed programming language - In dynamically typed programming languages, we do not need to specify the data type beforehand, it assigns the data type based on the value at runtime.
+
+Variable - A variable is a container for storing any type of data and we give a label to that variable to access the data by just calling that variable label.
+
+Data types - Integers, strings, boolean, float etc..,
+
+type conversion - using type conversion method we can convert on data type of one variable to another data type.
+
+syntax learnt --
+  to print == print()
+  variable and value assignment == a=10
+  type conversion == b=str(a)
+  to print data type of variable == print(type(a))
