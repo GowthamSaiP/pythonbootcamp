@@ -1,0 +1,11 @@
+Why does indexing starts at 0?
+The reason is the first element of a list or array is exactly contained in the memory location that array or list refers. This is called a offset distance of 0 and first element is 0 elements away from the array or list.
+Static allocation - When the allocation of memory performs at the compile time, then it is known as static memory allocation.
+dyanimc allocation - When the memory allocation is done at the execution or run time, then it is known as dynamic memory allocation.
+  In python the dynamic allocation occurs at the rate of no.of elements multipled by 2 i.e, twice of the no.of elements present.
+    For example, if there are 2 elements in a list, python will allocate memory sufficient to accomodate 2*2=4 values in that list.
+ When are lists used?
+ You can use these when you need a collection of similar/non similar items. 
+ Real life example : storing name of a person, id of a person, height of person in a list.
+                     a refrigirator is used to store soft drinks, vegetables and fruits.
+   
