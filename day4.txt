@@ -1,0 +1,15 @@
+Naming convention to declare a variable -- 1) It should not start with a number or special characters. 2) It can only start with an underscore or an alphabet.
+  ex: $a or 1a are invalid where as a or _a are valid.
+Mutable object - Mutable objects are those objects which can be changed after they are created. ex: lists
+  uses : mutable objects are memory effiecient because there is no need for new memory allocation when a change is made.
+Immutable objects - Immutable objects are those objects which cannot be changed after they are created. ex: strings, integers.
+  uses: These will ensure thread safety because of unchangable nature.
+Lists : Lists are heterogenous data structures meaning they can hold different data type values at one place.
+  Ex: a=[1,"hi",20]
+  List methods:
+  append() : This method adds an element at the end of the list.
+  count() : This method tells us the number of elements of a specified value.
+  index() : This method gives the index location of an element.
+  pop()   : This method removes an element given its index number.
+  remove() : This method removes an element given its value.
+  
