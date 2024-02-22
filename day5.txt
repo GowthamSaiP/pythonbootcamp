@@ -1,0 +1,14 @@
+Time Complexity
+  Time complexity measures the amount of time an algorithm takes to run as a function of the input size. 
+  It helps us analyze the efficiency of an algorithm and understand how its performance scales with larger inputs. 
+  Time complexity is usually expressed using the Big O notation, which describes the upper bound of the algorithm's running time.
+Time complexity for lists
+  Accessing an element by index: O(1)
+  Inserting or deleting an element at the end: O(1)
+  Inserting or deleting an element at the beginning or middle: O(n)
+  Searching for an element: O(n)
+  Sorting: O(n log n)
+Time complexity for sets
+    Accessing an element: Not applicable
+    Inserting or deleting an element: O(1) average case, O(n) worst case
+    Searching for an element: O(1) average case, O(n) worst case
