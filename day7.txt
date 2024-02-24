@@ -1,0 +1,12 @@
+What is bigO notation?
+  bigO is a mathematical notation that describes the limiting behaviour of a function when the argument tends towards a particular value or infinity.
+  Basically, we use bigO notation to describe the performance of an algorithm and this helps us to determine if a given algorithm is scalable or not. Which means an algorithm is going to scale well as the input grows really large.
+    Types of bigO notation - a) Run Time Complexities = 1) O(1)        2) O(n)      3) O(n²)     4) O(log n)     5) O(2^n) etc..,
+    b) Space time complexitites = Describes how much space an algorithm requires.
+
+    
+    1) O(1) - Constant Time, size of the input does not matter. Ex: simple print operation etc..,
+    2) O(n) - Grows linearly and in direct correlation to the size of the input. Ex: Loops like for,while etc..,
+    3) O(n²) - Runs in quadratic time, slower than O(n). Ex: Nested loops etc..,
+    4) O(log n) - We reduce our work by half in every step and has logarithmic growth. Its more scalable than linear time algorithms. Ex: Binary search
+    5) O(2^n) - It is very slow. it is exponentional growth which is opposite to logarithmic growth.
