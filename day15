@@ -1,0 +1,54 @@
+In built functions in python
+  type conversion functions
+  
+    nums = int(num)
+    nums = str(num)
+    nums = float(num)
+    abs() function to find modulus number i.e, positive number
+
+functions related to lists
+  
+  nums = list()- to create list
+  append() to add element at last
+  insert(index,element) to add element by index
+  sorted() to sort the data
+  pop() to remove element at last or index as an argument
+  remove() to remove element by element as an argument
+  zip() to read all the values from 2 lists given as arguments
+  enumerate() to access value and index for that in a list
+
+count() to count repetitions of an element given as the argument
+max() to find maximum value
+min() to find minimum value
+sum() to find sum
+round(variable name, limit) to perform round off same as in maths
+pow(base value, power) power of a number same as in maths
+  
+functions related to strings
+  
+  lower() to convert all the characters to lower
+  upper() to convert all the characters to upper
+  title() to convert all the characters into camelcase 
+  split(" ") to convert strings into lists seperated by spaces( in this case). since strings are immutable we do this to perform desired operations.
+  join(name) to convert list to strings
+
+functions related to sets
+  
+  nums=set() - to create set
+  add() to add element
+  remove() to remove element
+
+functions related to dictionaries
+  
+  nums=dict() to create dictionaries
+  nums[1]=2 - 1 is key and 2 is value
+  keys() to iterate keys
+  values() to iterate values
+  items() to iterate both keys and values
+  update({key:value}) to add pairs to dictionary
+  get(key) to get value related to key given in the argument
+
+
+
+  
+  
