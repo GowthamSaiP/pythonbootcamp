@@ -1,4 +1,5 @@
-Files = To integrate downloading feature is one of the use cases of files.
+Files and files handling in python
+  Files = To integrate downloading feature is one of the use cases of files.
   file=open("new.txt", "w") here w means write that create a text file with the name new.
   file.write("hello world"). \n can be used to generate the text afterwars in a new line.
   file = open("new.txt","r").
