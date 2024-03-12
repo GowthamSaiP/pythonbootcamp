@@ -1,0 +1,22 @@
+Time Complexity:
+
+  We should always consider worst case time complexity.
+    For example we have 6 different houses and each house has 6 rooms in it.
+    If we consider searching each room will take us 1 second, searching 1 house will take us 6 seconds. To search all the houses will take 36 seconds.
+    To represent this in n terms we say it takes pow(n,2) seconds of time. n is each house we have 6 houses so n power 2 is 36.
+
+  * We do not consider constants when calculating time complexity
+      For example we run the following nested for loops
+      nums = [1,2,3,4,5,6]
+      for i in range(len(nums)):
+        for j in range(i+1,len(nums)):
+          print(i+j)
+      Here, the first for loop runs 6 times that is n times.
+      second for loop runs for 5 times at first, 4 times at second, 3 times at third and so on, so it runs n-1/2 times.
+      so total time complexity is n*(n-1)/2 but we avoid the constant 1 and say O(n*n) is the time complexity.
+      Another example being following 2 for loops in a single program
+      for i in range(len(nums)):
+        print(i)
+      for j in range(len(nums)):  
+        print(j)
+      The above program takes n + n time that is 2n but we avoid the constant 2 and just say O(n) is its time complexity.
