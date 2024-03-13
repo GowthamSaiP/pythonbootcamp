@@ -1,1 +1,40 @@
+Space Complexity
+  Space complexity refers to the total amount of memory space used by an algorithm/program, including the space of input values for execution.
+If an algorithm stores n elements then the space complexity of that algorithm is O(n)
 
+For example: lets take an algorithm for finding out duplicate value in a set of numbers
+  
+  nums=[1,2,3,1,5]
+  empty=[]
+  for n in nums:
+    if n not in empty:
+      empty.append()
+    else:
+      print(n)
+
+    The time complexity of this code is O(n^2) because for each element in the nums list, the code checks if it is already in the empty list, which has a worst-case time complexity of   
+    O(n) 
+    for each check. Since there is a nested loop, the overall time complexity is O(n^2).
+    The space complexity is O(n) because the empty list can potentially store all the elements from the nums list.
+
+  if we consider to perform the same algorithm but with empty set instead of an empty list
+  nums=[1,2,3,1,5]
+  empty=set()
+  for n in nums:
+    if n not in empty:
+      empty.append(n)
+    else:
+      print(n)
+
+  The time complexity of this code is O(n) because the loop iterates through each element in the nums list once. 
+  The space complexity is also O(n) because the empty set can potentially store all unique elements from the nums list.
+
+Explanation of why set uses O(1) time complexity to search unlike list uses O(n)
+This is because set uses hashing method when storing elements inside it so repeating elements cannot be stored.
+Hashing method works like this it takes a prime number(might be large) and multiplies with the ascii code of the element and stores the element.
+space = prime number(might be large)*Ascii code
+for example if we want to store 1 in a set
+space = 11 x 01, it is variable.
+here key is the space i.e, 11
+and value is 1.
+It takes O(1) time complexity to store an element in a set. and also O(1) space complexity.
