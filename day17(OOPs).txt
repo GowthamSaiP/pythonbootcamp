@@ -4,7 +4,7 @@ A class is a code template for creating objects. Objects have member variables a
   
 First we create a blueprint like this, class is a blueprint
   class student:
-    pass     (pass is a keyword we use if there is no code or data inside class)
+    pass                 //pass is a keyword we use if there is no code or data inside class
   in this class we can create multiple objects like below
   
   Rama=student()
@@ -17,13 +17,13 @@ First we create a blueprint like this, class is a blueprint
 
   Here rama and lakshamana are objects.
 
-  Constructor Method : Constructors in Python is a special class method for creating and initializing an object instance at that class. In Python the __init__() method is called the 
-  constructor and is always called when an object is created.
+Constructor Method : Constructors in Python is a special class method for creating and initializing an object instance at that class. In Python the __init__() method is called the 
+                     constructor and is always called when an object is created.
   example
   
   class student:
     def __init__(self,name,fathername):    //Self is a reserved word in PEP8, we can use any other word but self is recomended.
-      self.name=name                      //
+      self.name=name                      //Self is useful to take the object into the constructor method i.e, object name is passed as self, self is a variable.
       self.fathername=fathername
   
   Rama = student("Rama","Dasaradha")
