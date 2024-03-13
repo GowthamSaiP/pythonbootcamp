@@ -1,0 +1,31 @@
+OOPs - Object Oriented Programming System
+  
+A class is a code template for creating objects. Objects have member variables and have behaviour associated with them.
+  
+First we create a blueprint like this, class is a blueprint
+  class student:
+    pass     (pass is a keyword we use if there is no code or data inside class)
+  in this class we can create multiple objects like below
+  
+  Rama=student()
+  Rama.name = "Rama"
+  Rama.fathername = "Dasaradha"
+
+  lakshamana=student()
+  lakshamana.name = "Lakshamana"
+  lakshamana.fathername = "Dasaradha"
+
+  Here rama and lakshamana are objects.
+
+  Constructor Method : Constructors in Python is a special class method for creating and initializing an object instance at that class. In Python the __init__() method is called the 
+  constructor and is always called when an object is created.
+  example
+  
+  class student:
+    def __init__(self,name,fathername):    //Self is a reserved word in PEP8, we can use any other word but self is recomended.
+      self.name=name                      //
+      self.fathername=fathername
+  
+  Rama = student("Rama","Dasaradha")
+  Lakshamana = student("Lakshamana","Dasaradha")
+  
