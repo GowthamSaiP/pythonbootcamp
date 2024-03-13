@@ -1,0 +1,54 @@
+syntax for while loop
+  while condition
+for example
+  temp=0
+  while temp!=10:
+    print(temp)
+    temp=temp+1
+  printf("off stove"). This loop increases the temp until it reaches 10 and then turns it off.
+
+To read input from user we use input method
+  
+  a=input("Enter any number")
+  by default this takes input as string type
+  if we want to consider the input in any other data type, we specify like below
+  a=int(input("Enter any number"))
+
+  To read multiple variables in a single line, we use the following
+  a,b=map(int,input("Enter two numbers").split(" ")). Here split method helps to specifiy that elements entered after space are taken as other element. we can use comma as well.
+
+  examples :
+
+  empty=[]
+  n=int(input("Enter how many elements"))
+  for i in range(n):
+    empty.append(input("Enter Number"))
+  print(empty).
+  The above program takes elements input in a list.
+
+  To do the same above program in a single line we use
+  empty=list(map(int,input("Enter Numbers").split(" ")))
+
+Functions
+  A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function.
+  syntax of a functions
+
+  def functionName(parameters):
+    code
+  example:
+    def addition(a,b):
+      print(a+b)
+
+f string
+  To add two strings without + operator like in below example
+  a="name"
+  printf(f"hello" {a})
+  Output will be hello name
+
+
+Keyword parameters
+
+def greet(name,location)
+  print(f"hello {name}")
+  print(f"are you from {location}?")
+greet(name="user",location="AP")
