@@ -1,0 +1,19 @@
+syntax for while loop
+  while condition
+for example
+  temp=0
+  while temp!=10:
+    print(temp)
+    temp=temp+1
+  printf("off stove"). This loop increases the temp until it reaches 10 and then turns it off.
+
+To read input from user we use input method
+  
+  a=input("Enter any number")
+  by default this takes input as string type
+  if we want to consider the input in any other data type, we specify like below
+  a=int(input("Enter any number"))
+
+  To read multiple variables in a single line, we use the following
+  a,b=map(int,input("Enter two numbers").split(" ")). Here split method helps to specifiy that elements entered after space are taken as other element. we can use comma as well.
+  
