@@ -1,0 +1,19 @@
+Python - Python is a high level, dynamically typed and interpreted scripting language.
+  Interpreted :              Python is an interpreted language, meaning it does not need to be compiled before execution providing flexibility and ease of use.
+  Dynamic Typing :           Python is dynamically typed, allowing for easy reassignment of variables and enabling more flexibility in coding.
+  Scripting and Automation : Python is widely used for scripting and automation, due to its clear and simple syntax, making it suitable for various tasks.
+
+Taking input and printing in python
+    User Input :        User input allows interaction with the program, allowing users to provide data during program execution, input() is used to take input from users.
+    Output Display :    Output display showcases the results of the program's operations, including displaying text and results of computation.
+    Printing Function : The print() function is utilized to display output and messages to the user during program execution.
+
+Basic syntax and features
+      Variables : Variables are used to store data that can be referenced and manipulated in a program.
+      Functions : Functions are blocks of code that perform a specific task that can be reused throught a program.
+      Loops     : Lopps allow the execution of a set of instructions repeatedly until and certain condition is met.
+
+Data types in python
+        Numeric Data type : Includes integers and floating-point numbers for mathematical operations.
+        String Data Type  : Represents a sequence of characters and supports various manipulations.
+        Boolean data Type : Stores True or False values for logical operations.
