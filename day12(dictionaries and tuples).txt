@@ -1,0 +1,40 @@
+Dictonary : Dictionaries are used to store data values in key:value pairs.
+            A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+            As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.
+syntax to create dictionary
+          1st method
+          programming = {"bug":"functionality",
+                        "def":"function"}
+          2nd method
+          programming["print"]="output"  //here print is key and output is value
+          3rd method
+          programming.update({"input":"read"})
+
+To access value in dictionary
+            print(dictionaryName["key"])
+
+To loop over dictionary
+            for key,value in dictionaryName.items()
+                        print(key,value)
+
+            If we want only keys
+            for key in dictionaryName.keys()
+                        print(key)
+
+            If we want only value
+            for value in dicitonaryName.values()
+                        print(value)
+* Keys can only be any immutable data structures.
+Values can be mutable or immutable data structures.
+
+
+Tuples:  Python tuples are a type of data structure that is very similar to lists. The main difference between the two is that tuples are immutable, meaning they cannot be changed once 
+         they are created. 
+
+Syntax to create tuple
+            tup=(1,2,3,4,5,6)
+to access
+            print(tup)
+            or we can use index
+            print(tup[0])
+To mitigate deadlock situation we use objects like tuples
