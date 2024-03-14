@@ -37,4 +37,22 @@ to access
             print(tup)
             or we can use index
             print(tup[0])
-To mitigate deadlock situation we use objects like tuples
+To mitigate deadlock situation we use objects like tuples.
+
+
+Terinary Operators
+
+            The Python ternary operator determines if a condition is true or false and then returns the appropriate value in accordance with the result. The ternary operator is useful in cases where we need to assign a value to a variable based on a simple condition, and we want to keep our code more concise — all in just one line of code. It’s particularly handy when you want to avoid writing multiple lines for a simple if-else situation.
+
+Syntax: [on_true] if [expression] else [on_false]
+
+expression: conditional_expression | lambda_expr
+
+# Program to demonstrate conditional operator
+a, b = 10, 20
+
+# Copy value of a in min if a < b else copy b
+min = a if a < b else b
+
+print(min)
+
