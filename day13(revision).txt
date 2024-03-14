@@ -59,5 +59,36 @@ Dictionaries in python
   Data storage            : They are used for storing and organizing data in an easily accessible manner.
   Modification and access : Dictionaries provide methods to modify and access the stored data based on the keys.
 
+For loops in python
+  Iteration      : For loops iterate through a sequence a elements, executing a specific block of code each time.
+  Code execution : They are commonly used for executing a block of code repetitevly for each element in a sequence.
+  Loop control   : For loops offer mechanisms for controlling the iteration process, such as break and continue statements.
 
-  
+While loops in python
+  Conditional execution : While loops execute a block of code as long as a specified condition is true.
+  Iteration             : They are useful for iterating through a block of code until a certain condition is met.
+  Loop control          : Similar to for loops, while loops also allow control statements like break and continue.
+
+Types of for loops in python
+  Range function : Range function() is commanly used to generate a sequence of numbers for iteration in for loops.
+  Iterables      : For loops can iterate through various iterables, including tuples, lists and strings.
+  Nested loops   : Python supports the usage of nested for loops for iterating through multiple sequences.
+
+Immutable and mutable in python
+  Immutable objects     : Immutable objects cannot be changed after they are created, including numbers, tuples and strings.
+  Mutable objects       : Mutable objects can be altered after creation, including lists, sets and dictionaries.
+  Impact on programming : Understanding mutable and immutable objects is crucial for managing data and preventing unexpected changes.
+  Examples :
+    Immutable objects             : An example of immutable object is a string in python, once it is created it cannot be modified.
+    Mutable objects               : An example of mutable object is a list in python, it can be modified by adding or removing elements.
+    Implementation in programming : These examples demonstrate how different types of objects are used and manipulated in pyton programming.
+
+Time complexity
+  Optimizing code efficiency      : Understanding time complexity helps in identifying and optimizing inefficient code for better performance.
+  Analyzing algortihm performance : It involves evaluating how the algorithm's execution grows with the input size or scaling.
+  Impact on programming           : Developers use time complexity to make informed decisions about algorithm selection and code optimization.
+
+Big O notation
+  Definition and significance    : Big O notation is used to describe the upper bound of the time complexity of algorithms and their growth rates.
+  Comparing algorithm efficiency : It allows comparing the performance of different algorithms and their scalability.
+  Practical applications         : Undersating big O notation is essential for optimising algorithms and designing efficient code.
