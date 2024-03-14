@@ -4,16 +4,60 @@ Python - Python is a high level, dynamically typed and interpreted scripting lan
   Scripting and Automation : Python is widely used for scripting and automation, due to its clear and simple syntax, making it suitable for various tasks.
 
 Taking input and printing in python
-    User Input :        User input allows interaction with the program, allowing users to provide data during program execution, input() is used to take input from users.
-    Output Display :    Output display showcases the results of the program's operations, including displaying text and results of computation.
-    Printing Function : The print() function is utilized to display output and messages to the user during program execution.
+  User Input :        User input allows interaction with the program, allowing users to provide data during program execution, input() is used to take input from users.
+  Output Display :    Output display showcases the results of the program's operations, including displaying text and results of computation.
+  Printing Function : The print() function is utilized to display output and messages to the user during program execution.
 
 Basic syntax and features
-      Variables : Variables are used to store data that can be referenced and manipulated in a program.
-      Functions : Functions are blocks of code that perform a specific task that can be reused throught a program.
-      Loops     : Lopps allow the execution of a set of instructions repeatedly until and certain condition is met.
+  Variables : Variables are used to store data that can be referenced and manipulated in a program.
+  Functions : Functions are blocks of code that perform a specific task that can be reused throught a program.
+  Loops     : Lopps allow the execution of a set of instructions repeatedly until and certain condition is met.
 
 Data types in python
-        Numeric Data type : Includes integers and floating-point numbers for mathematical operations.
-        String Data Type  : Represents a sequence of characters and supports various manipulations.
-        Boolean data Type : Stores True or False values for logical operations.
+  Numeric Data type : Includes integers and floating-point numbers for mathematical operations.
+  String Data Type  : Represents a sequence of characters and supports various manipulations.
+  Boolean data Type : Stores True or False values for logical operations.
+
+Type Conversion In Python
+  Implicit Conversion  : Automatic conversion of data type by python.
+  Explicit Conversion  : Manual conversion of data types using predefined functions.
+  Conversion Functions : Functions like int(), str(), float() etc.., for type conversion.
+
+Operators in python
+  Arithmetic Operators : Perform basic mathematical operations like addiiton(+), substraction(-), multiplication(*), division(/) gives float value, floor division(//) gives just     
+                         quotient, % gives remainder.
+  Comparison Operators : Compare two values and return True of False based on the comparison. Like less than(<)
+  Logical operators    : Perform logical operations such as AND, OR and NOT.
+
+Conditionals in python
+  If statement   : Executes a block of code if a specified condition is true.
+  Elif statement : Allows checking for multiple conditions successively.
+  Else statement : Executes a block of code if none of the specified conditions is true.
+
+Lists and their methods in python
+  List creation             : Creating list to store multiple items in a single variable. It is heterogenous
+  List manipulation methods : Methods like append(), remove() and pop() for modifying lists.
+  List access and slciing   : Accessing elements and creating sublists for specified data extraction.
+
+Indexing and Slicing in python
+  Data extraction : Indexing and slicing are essential for extracting specific elements or sequences from data structures.
+  Indexing        : Indexing refers to accessing individual elements within a data strcuture using their position.
+  Slicing         : Slicing allows the extraction of a subset of elements from a data strcuture based on specified indices.
+
+Sets in python
+  Creation and modification         : Sets can be created by enclosing a comma seperated list of elements inside curly braces, and modified using various methods.
+  Operations and method             : Sets support operations like union, intersection, difference and symmetric difference, as well as methods for adding and removing elements.
+  Iterating and membership testing  : Keys of a set are unique and cannot have multiple occurances, making it easy to iterate through a set and test membership of elements.
+
+Tuple in python
+  Definition and declaration : Tuples are immutable sequences, typically used to store collections of items and declared by placing comma-seperated values inside paranthesis.
+  Accesing and slicing       : Elements of a tuple can be accessed using indexing and slicing, making it a versatile data structure for various applications.
+  Differences from lists     : Unlike lists, tuples are immutable and are generally used for fixed collection of elements, passed as arguments and can be used as keys in dictionaries.
+
+Dictionaries in python
+  Key-value pairs         : Dictionaries store data in key-value pairs, allowing efficient retrieval and storage.
+  Data storage            : They are used for storing and organizing data in an easily accessible manner.
+  Modification and access : Dictionaries provide methods to modify and access the stored data based on the keys.
+
+
+  
