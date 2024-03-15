@@ -4,3 +4,29 @@ Reduce
   
   from functools import reduce
     num = reduce(lamda x,y:x+y,nums)
+
+*args
+  if we do not know how many parameters to be passed on in a functions, we use *args
+  example
+    def addition(*args)
+      return sum(args)
+
+  *args is a tuple data type.
+
+**kwargs
+  To pass unknown number of key,value pairs in a dictionary we use this
+  Example
+    def student(**kwargs)
+      return kwargs.keys()
+
+methods in OOPs
+  class movie
+    def __init__(self,hero,heroine,director,villian):
+      self.hero = hero
+      self.heroine=heroine
+      self.director = director
+      self.villian=villian
+    def dofight(self)
+      print(f"{self.hero} {self.villian}")
+
+
