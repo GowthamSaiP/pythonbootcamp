@@ -2,11 +2,14 @@ Dunder methods
   Dunder methods in Python, also known as magic methods, are special predefined methods that allow you to enrich your classes by providing customized functionality. These methods are easily recognizable as they start and end with double underscores, for example, __init__ or __str__. Dunder methods play a crucial role in emulating the behavior of built-in types and enable you to interact with Python's core features like sequences, iteration, operator overloading, attribute access, and more. By implementing dunder methods in your classes, you can customize behaviors such as object initialization, object representation, iteration, and more. They are essential for creating powerful and Pythonic classes that mimic the behavior of built-in types.
   Example
     class vehicle 
-      def __init__(self,selfdriven,autogear,adsystem):
+      def __init__(self,selfdriven,autogear,adsystem,tyres):
         self.selfdriven=selfdriven
         self.autogear=autogear
         self.adsystem=adsystem
+        self.tyres=tyres
       def __str__(self):                                                     This mimics print 
         return f"{self.selfdriven},{self.autogear},{self.adsystem}"
       def __eq__(self,others):                                               mimics if equal to
         return self.selfdriven==others.selfdriven and self.autogear==others.autogear and self.adsystem==others.adsystem
+      def __len__(self):
+        return self.tyres
