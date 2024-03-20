@@ -13,3 +13,26 @@ Dunder methods
         return self.selfdriven==others.selfdriven and self.autogear==others.autogear and self.adsystem==others.adsystem
       def __len__(self):
         return self.tyres
+
+Super() method
+  A Simple Rectangle Class
+  A rectangle is a 4-sided shape where all angles are right angles and can be constructed using only a length and a width.
+  Example
+    class Rectangle():
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+    def perimeter(self):
+        return 2 * (self.length + self.width)
+    def area(self):
+        return self.length * self.width
+  A square is a rectangle where length is equal to the width and can be constructed only using 1 length. As a square is a more specific rectangle, we can design the Square class to inherit from the Rectangle class.
+
+  A Child Class Using super().__init__
+    class Square(Rectangle):
+      def __init__(self, length):
+          super().__init__(length, length)
+
+  Here, the super() function (remember to use brackets ()) returns a temporary object of Square's parent class Rectangle. This allows us to call the methods from inside the parent class Rectangle.
+
+  As such, super().__init__() here actually refers to the __init__ method from inside the Rectangle class. As it takes in 2 arguments length and width, we have to pass in 2 arguments into super().__init__. As length and width are equal in a square, we can simply pass in length twice.
