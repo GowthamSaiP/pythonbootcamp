@@ -1,1 +1,17 @@
+Decorators
+  Decorators are a very powerful and useful tool in Python since it allows programmers to modify the behaviour of a function or class. Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it. But before diving deep into decorators let us understand some concepts that will come in handy in learning the decorators.
+  As stated above the decorators are used to modify the behaviour of function or class. In Decorators, functions are taken as the argument into another function and then called inside the wrapper function.
+  Example
+  def goodmorning(function):
+    print("good morning")
+    return function
+
+  @goodmorning
+  def hello():
+    return "Hello World"
+
+  def greet():
+    return "welcome to our channel"
+  print(hello())
+    This will print goodmorning and hello world
 
