@@ -15,3 +15,47 @@ Decorators
   print(hello())
     This will print goodmorning and hello world
 
+
+Getters and setters methods
+  attributes created with _ are private attributes
+Getters method
+  Getters are OOPs functions in python. Getters are functions used to retrieve the values of private attributes, while setters are functions used to modify or assign values to private attributes.
+  In Python, since private variables cannot be accessed directly, the getter method provides a way to retrieve them from outside the class, thereby helping in data encapsulation. The getter method typically allows read-only access to the properties of an object. Getters are named with a ‘get_’ prefix followed by the attribute name whose value is to be accessed.
+
+Setter method
+  Setters are methods in OOPs that are used to modify and update the value of an attribute of an object. Certain constraints can also be applied along with setter methods. This ensures that the new values assigned to the attributes are valid. Setter() are used together with the getter() method in Python.
+
+Example
+      class Ninja:
+        def __init__(self, totalMarks = 0, totalSub=0):
+             self._totalMarks = totalMarks
+             self._totalSub = totalSub
+          
+        # getter method
+        def get_totalMarks(self):
+            return self._totalMarks
+          
+        # setter method
+        def set_totalMarks(self, x):
+            self._totalMarks = x
+        # getter method
+        def get_totalSub(self):
+            return self._totalSub
+          
+        # setter method
+        def set_totalSub(self, y):
+            self._totalSub = y
+      
+        student = Ninja()
+          
+        # Setting the totalMarks using setter
+        student.set_totalMarks(450)
+        # setting the totalSub using setter
+        student.set_totalSub(5)
+          
+        # retrieving totalMarks using getter
+        print("Total Marks:" + str(student.get_totalMarks()))
+        # retrieving totalSub using getter
+        print("Total Sub:" + str(student.get_totalSub()))  
+        # calculate average
+        print("Average:" + str(student._totalMarks/student._totalSub))
