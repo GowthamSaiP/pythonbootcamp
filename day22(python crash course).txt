@@ -35,4 +35,21 @@ Control flow : loops
     Loop control statements : break, continue
 
 Data structures
-    Lists 
+    Lists : lists are ordered collection of items, which can be of different types.
+      Creating Lists : Lists can be created by enclosing comma-seperated items within square brackets [].
+      Accessing and modifyting list elements : Elements of a list can be accessed using index notation.
+      Lists are mutable meaning their elements can be changed.
+      List methods : append(), pop(), remove(), extend(), insert() etc..,
+
+    Tuples : Tuples are ordered collection of items, similar to lists, but they are immutable, meaning their elements cannot be changed after creation.
+      Creating tuples : Tuples can be created by enclosing comma-seperated items within paranthesis ().
+      Accessing tuple items : Elements of tuple can be accessed using index notation, similar to lists.
+
+    Sets : Sets are unordered collection of unique items.
+      Creating sets : Sets can be created by enclosing comma-seperated items within curly braces {}, or using set() function.
+      Accessing and modifying set elements : Sets do not support indexing or slicing as they are unordered. However, elements can be added or removed using methods like add(), remove(), discard() etc..,
+
+    Dictionaries : Dictionaries are ordered collection of key-value pairs. Each key is unique and associated with a value.
+      Creating dictionaries : Dictionaries can be created by enclosing key-value pairs within curly braces{} or by using dict() function. 
+      Accessing and modifying dictionary elements : Dictionaries values can be accessed using thier keys. They are mutable, so values associated with keys can be changed. 
+      Dictionary methods : keys(), values(), items(), update(), pop() etc..,
