@@ -1,0 +1,38 @@
+Python : Python is a high level, interpreted programming language known for its simplicity and readability.
+Why learn python 
+  Python is widely used in various fields such as web development, data science, artificial intelligence, and machine learning.
+    
+Brief history of python
+    Python was created by Guido Van Rossum and first released in 1991.
+    
+First program in python
+    print("hello world") - this prints input on screen. hello world is input here, we can use single quotes instead of double quotes as well.
+    
+    Python uses indentation to indicate block of code and is not dependent on braces like many other languages.
+    
+Variables and dat types
+    Variables are containers for stroing data values.
+
+    Numeric data types
+      Integers, floats and complex numbers are examples of numeric data types.
+    Strings
+      Strings represents sequence of characters enclosed within single or double quotes.
+    Booleans
+      Booleans represents truth values : true or false.
+
+Basic operators
+    Arithmetic operators : +, - , *, /, //, %, **(exponentiation)
+    Comparison operators : ==, !=, >, <, <=, >=
+    Logical operators = and, or, not.
+
+Control flow : Conditional statements
+  - if,elif,else statements
+    Conditional statements are used for decision making in python.
+
+Control flow : loops
+    for
+    while
+    Loop control statements : break, continue
+
+Data structures
+    Lists 
